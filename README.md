@@ -186,6 +186,42 @@ The signed APK lands at
 
 ## Architecture
 
+```mermaid
+graph TD
+    subgraph UI_Layer [UI Layer]
+        Main[main.dart] --> Login[LoginScreen]
+        Main --> Gate[SubscriptionGate]
+        Gate --> List[NotesListScreen]
+        List --> Editor[NoteEditorScreen]
+    end
+
+    subgraph Service_Layer [Service Layer]
+        AuthSvc[AuthService]
+        NotesSvc[NotesService]
+        SubSvc[SubscriptionService]
+    end
+
+    subgraph External_Layer [External Services & DB]
+        FA[Firebase Auth]
+        CF[Cloud Firestore]
+        SP[(SharedPreferences)]
+        AP[AppsPro / BDApps REST API]
+    end
+
+    %% UI to Service Connections
+    Login --> AuthSvc
+    Gate --> SubSvc
+    List --> NotesSvc
+    List --> SubSvc
+    Editor --> NotesSvc
+
+    %% Service to External Connections
+    AuthSvc --> FA
+    NotesSvc --> CF
+    SubSvc --> AP
+    SubSvc --> SP
+```
+
 - **Single source of truth** — the UI subscribes to a Firestore
   stream; there is no local cache for notes. This keeps the code
   short and matches the assignment scope.
