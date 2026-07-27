@@ -4,6 +4,8 @@
 
 **A simple, fast notes app for Android. Syncs to the cloud. Subscribes through your mobile carrier billing.**
 
+**[Latest Release (v1.0.0)](https://github.com/AbirHasanArko/Clean-Notes/releases/tag/v1.0.0)**
+
 <br>
 
 [![Download Clean Notes from AppsPro](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download_Clean_Notes-AppsPro-7B1FA2?style=for-the-badge&logo=android&logoColor=white)](https://appspro.dev/app/CkFUYUsruI)
@@ -214,7 +216,7 @@ The signed APK lands at
 | File | Purpose |
 |---|---|
 | **[USER_MANUAL.txt](./USER_MANUAL.txt)** | End-user guide: install, subscribe, use, unsubscribe. |
-| **[RELEASE_NOTES.md](./RELEASE_NOTES.md)** | Release notes and user-facing app description ([v1.0.0 Release](https://github.com/AbirHasanArko/Clean-Notes/releases/tag/v1.0.0)). |
+| **[RELEASE_NOTES.md](./RELEASE_NOTES.md)** | Release notes ([v1.0.0](https://github.com/AbirHasanArko/Clean-Notes/releases/tag/v1.0.0)) and user-facing app description. |
 | **[FIREBASE_SETUP.md](./FIREBASE_SETUP.md)** | Firebase project setup and Firestore rules. |
 | **[APPSPRO_INTEGRATION.md](./APPSPRO_INTEGRATION.md)** | AppsPro / BDApps setup, endpoints, secret-key handling. |
 
