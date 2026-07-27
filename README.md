@@ -16,7 +16,7 @@
 ![Android](https://img.shields.io/badge/Android-5.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Material 3](https://img.shields.io/badge/UI-Material_3-1976D2?style=for-the-badge&logo=materialdesign&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Backend-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![BDApps](https://img.shields.io/badge/Billing-BDApps-2E7D32?style=for-the-badge&logo=android&logoColor=white)
+![BDApps](https://img.shields.io/badge/Billing-BDApps-d32f2f?style=for-the-badge&logo=android&logoColor=white)
 
 </div>
 
@@ -33,7 +33,6 @@
 7. [Quick Start](#quick-start)
 8. [Architecture](#architecture)
 9. [Documentation](#documentation)
-10. [License](#license)
 
 ---
 
