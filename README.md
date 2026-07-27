@@ -214,7 +214,7 @@ The signed APK lands at
 | File | Purpose |
 |---|---|
 | **[USER_MANUAL.txt](./USER_MANUAL.txt)** | End-user guide: install, subscribe, use, unsubscribe. |
-| **[RELEASE_NOTES.txt](./RELEASE_NOTES.txt)** | Release notes and user-facing app description. |
+| **[RELEASE_NOTES.md](./RELEASE_NOTES.md)** | Release notes and user-facing app description ([v1.0.0 Release](https://github.com/AbirHasanArko/Clean-Notes/releases/tag/v1.0.0)). |
 | **[FIREBASE_SETUP.md](./FIREBASE_SETUP.md)** | Firebase project setup and Firestore rules. |
 | **[APPSPRO_INTEGRATION.md](./APPSPRO_INTEGRATION.md)** | AppsPro / BDApps setup, endpoints, secret-key handling. |
 
