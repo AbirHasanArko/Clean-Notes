@@ -1,0 +1,97 @@
+CLEAN NOTES - USER MANUAL
+=========================
+Clean Notes, version 1.0.0+1. Android 5.0 or newer. July 2026.
+
+Clean Notes is a simple notes app. Notes are saved to the cloud and
+follow your subscription account across reinstalls and new phones.
+
+WHAT YOU NEED
+- Android 5.0 or newer.
+- A Bangladeshi mobile SIM that can receive SMS.
+- Internet access (Wi-Fi or mobile data).
+- BDT 2/= per day, added to your phone bill by your operator through
+  AppsPro / BDApps. That is about BDT 60/= per 30-day month.
+
+1. INSTALL
+- Open the APK file on your phone.
+- Allow installs from this source if Android asks.
+- Tap Install, then Open.
+
+2. SUBSCRIBE (BDT 2/= PER DAY)
+The first time you open the app you must subscribe. You cannot use
+the app until you do.
+
+1. Type your Bangladeshi mobile number in the format 8801XXXXXXXXX.
+2. Tap "Send code".
+3. Wait for the OTP by SMS (usually under 30 seconds).
+4. Type the OTP and tap "Verify".
+5. Tap "Continue to notes" on the confirmation screen.
+
+The BDT 2/= daily charge starts the day you finish step 4. It stops
+the day after you unsubscribe (see section 4). You will see it on
+your operator's monthly statement under value-added services.
+
+If the OTP does not arrive: wait two minutes, check your signal,
+make sure your plan does not block SMS from short codes, then tap
+"Resend code". If it still does not arrive, restart your phone and
+try again.
+
+3. USING THE APP
+- Notes list: the main screen. Most recently edited notes first.
+- Add a note: tap the "+" button, type, then tap the back arrow.
+  Your note saves automatically.
+- Edit a note: tap the note in the list, change the text, tap the
+  back arrow. The "last edited" time updates.
+- Delete a note: open the note, tap the trash-can icon, confirm.
+  This cannot be undone.
+
+4. UNSUBSCRIBE AND LOG OUT
+Tap "Logout / Unsubscribe" at the bottom of the notes list. The app
+calls the operator to cancel your subscription, then removes your
+notes from this device. The next time you open the app you will be
+asked to subscribe again.
+
+It may take up to 24 hours for the unsubscribe to fully reflect on
+your operator bill. If the BDT 2/= daily charge still appears after
+24 hours, contact your mobile operator.
+
+5. NEW PHONE
+Install Clean Notes on the new phone and subscribe with the same
+Bangladeshi mobile number. Your notes will load from the cloud.
+A different phone number sees an empty list.
+
+6. OFFLINE
+You can read notes that were previously loaded on this device
+without internet. New notes save locally and sync the next time
+you are online. Subscribing for the first time needs internet.
+
+7. PRIVACY
+- Notes are stored in Cloud Firestore under your subscriber
+  identity. No other user can see them.
+- Logging out removes your notes from this device. The cloud copy
+  stays linked to your subscriber account.
+- The app does not collect your contacts, location, camera, or
+  microphone.
+
+8. TROUBLESHOOTING
+- "Continue to notes" does nothing: fixed in version 1.0.0+1.
+- OTP never arrives: see section 2.
+- Unsubscribe returns an error: the app still logs you out locally.
+  Try again later or contact your operator.
+- App crashes on startup: free 50 MB of storage, restart the phone,
+  or uninstall and reinstall.
+- My notes are gone: are you on the same phone number? Did you open
+  the app offline so new notes never synced? If yes to both, try
+  uninstalling and reinstalling.
+
+9. SUPPORT
+- Billing or the BDT 2/= daily charge: contact your mobile operator
+  and ask about "AppsPro" or "BDApps" on your account.
+- App issues: see APPSPRO_INTEGRATION.md in the project repository,
+  or contact the team that gave you the app.
+
+10. VERSION HISTORY
+1.0.0+1 (27 July 2026) - First public release. Per-user data
+isolation. Subscription gate through AppsPro / BDApps. Notes list
+with add, edit, delete. Cloud sync via Firebase.
+

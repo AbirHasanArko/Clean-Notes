@@ -1,0 +1,28 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "notes-management-app-ostad",
+          "appId": "1:469007730974:android:23082127ef679cb76ce10f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "notes-management-app-ostad",
+          "configurations": {
+            "android": "1:469007730974:android:23082127ef679cb76ce10f",
+            "ios": "1:469007730974:ios:9662534e8892fa946ce10f",
+            "web": "1:469007730974:web:48020ca26087089e6ce10f",
+            "windows": "1:469007730974:web:9d2e7cfa21cc9a0b6ce10f"
+          }
+        }
+      }
+    }
+  }
+}
